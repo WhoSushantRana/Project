@@ -15,9 +15,6 @@ const Home = () => {
               Hi Get your <font color="green">DREAM</font> job<br />
                 Now !
               </div>
-              
-               
-             
               <div className="text-center text-white my-2 smallx ">
                
                 <button
@@ -28,7 +25,8 @@ const Home = () => {
                 </button>
               </div>
             </div>
-          </div><img src={pic} className="img-fluid" alt="error" />
+          </div>
+          <img src={pic} className="img-fluid" alt="error" />
         </div>
       </div>
     </>
