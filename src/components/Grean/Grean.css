@@ -1,0 +1,15 @@
+#top_section1 {
+  position: relative;
+  min-height: 30vh;
+  max-width: auto;
+  background-image:  url("../../assets/Frame\ 73.png");
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+ 
+}
+
+
+
+@media screen and (max-width: 50px) {
+}
