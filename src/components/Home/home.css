@@ -1,0 +1,78 @@
+#top_section {
+  position: relative;
+  height: 55em;
+  width: auto;
+  padding: 0;
+  display: block;
+  background-image:  linear-gradient(rgba(38, 38, 40, 0.5), rgba(49, 49, 35, 0.5), rgba(18, 8, 27, 0.5)),url("../../assets/landing_waves.png");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.for_BG {
+  background-color: rgb(23, 22, 22);
+}
+
+#top_section .container .main_content {
+ 
+  position: absolute;
+  top: 10%;
+  left: 16px;
+  font-size: 18px;
+}
+
+#top_section .container .descriptionx {
+  font-size: xxx-large;
+  color:white;
+  font-weight:bolder;
+}
+#top_section .container .smallx {
+  font-size: 15px;
+  position: absolute;
+   left: 0px;
+  bottom:auto;
+}
+#top_section img {
+  position: absolute;
+  max-width: 50%;
+  height: auto;
+  top: 0em;
+  right: 0;
+ 
+  display: block;
+     margin-left: auto;
+ 
+}
+#top_section .container .smallpng1 {
+  position: relative;
+  min-height: 50vh;
+  border: solid;
+  background-image: url("../../assets/Frame\ 73.png");
+  background-position: right 1% bottom 45%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#top_section .container .free_btn {
+  background-color: #0debff;
+  border-radius: 30px;
+  border: transparent;
+  outline: none;
+  box-shadow: none;
+  font-size: 17.5pt;
+  color: white;
+  font-weight: bold;
+  padding: 10px 40px;
+  transition: all 0.5s;
+}
+#top_section .container .free_btn:hover {
+  background-color: #fff;
+  color: #71cfd7;
+  transform: translateY(-15%);
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.61);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.61);
+  box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.61);
+}
+
+@media screen and (max-width: 1002px) {
+ 
+}
