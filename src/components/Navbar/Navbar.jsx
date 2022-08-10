@@ -36,7 +36,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/tester" className="nav-link transfer_btn">
+                <Link to="/login" className="nav-link transfer_btn">
                   SIGN IN/LOG IN
                 </Link>
               </li>

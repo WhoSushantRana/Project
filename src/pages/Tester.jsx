@@ -4,38 +4,22 @@ import Register from "../components/Register/Register";
 import Reset from "../components/Reset/Reset";
 import Dashboard from "../components/Dashboard/Dashboard";
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
-const Tester = () => {
+function Tester() {
   return (
-    <div>
-      <h1
-        style={{ // Applying some styles to the heading
-          display: "flex",
-          justifyContent: "center",
-          padding: "15px",
-          border: "13px solid #6A0DAD",
-          color: "#7F00FF",
-        }}
-      >
-        ????Geeks For Geeks Second Component in New Tab
-      </h1>
-      <div>
-      hi
-      <Login />
-      <Register />
-      <Reset />
-      <Dashboard />
-    </div>
+    <div className='Tester'>
+      <Router>
+     <Routes>
+      
+         <Route exact path="/tester" element={<Login />} />
+         <Route exact path="/tester/register" element={<Register />} />
+         <Route exact path="/tester/reset" element={<Reset />} />
+         <Route exact path="/tester/dashboard" element={<Dashboard />} />
+       </Routes>
+  </Router>
     </div>
    
     
-  //   <Router>
-  //   <Routes>
-  //       <Route exact path="/" element={<Login />} />
-  //       <Route exact path="/register" element={<Register />} />
-  //       <Route exact path="/reset" element={<Reset />} />
-  //       <Route exact path="/dashboard" element={<Dashboard />} />
-  //     </Routes>
-  // </Router>
+  //   
   );
 };
 
