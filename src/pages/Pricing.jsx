@@ -3,7 +3,7 @@ import React from 'react'
 const Pricing = () => {
     return (
         <div>
-            Pricing
+            Pricing IS MORE b
 
         </div>
     )
