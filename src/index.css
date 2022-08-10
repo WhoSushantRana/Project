@@ -8,9 +8,9 @@
 }
 
 :root {
-  --primary-color: #de6844;
+  --primary-color: #ad64f6;
   --main-transition: opacity 0.3s ease;
-  --signin-button: rgb(31, 82, 129);
+  --signin-button: rgb(55, 219, 210);
 }
 
 body {
