@@ -40,8 +40,8 @@
     width: clamp(200px, 40vw, 250px);
     height: clamp(55px, 40vw, 70px);
     font-size: clamp(1.1em, 3vw, 1.4em);
-    border-radius: 0.3em;
     margin: 0 0.4em;
+
   }
   
   #trial .try_button {
@@ -61,11 +61,13 @@
     transition: background 0.3s ease;
     color: white;
     background-color: rgb(60, 109, 254);
-    border: none;
+    border: 2px solid rgb(0, 0, 0);
   }
   
   #trial .demo_button:hover {
     cursor: pointer;
     background-color: rgb(250, 109, 66);
+    border: none;
+    border-radius:0%
   }
   
